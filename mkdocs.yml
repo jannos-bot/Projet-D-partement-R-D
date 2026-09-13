@@ -1,5 +1,6 @@
 site_name: Département R&D
 site_description: Documentation technique des projets du département R&D
+site_url: https://jannos-bot.github.io/Projet-D-partement-R-D/
 
 theme:
   name: material
