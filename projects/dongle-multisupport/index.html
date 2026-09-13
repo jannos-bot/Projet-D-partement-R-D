@@ -1,0 +1,1310 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation technique des projets du département R&D">
+      
+      
+      
+        <link rel="canonical" href="https://jannos-bot.github.io/Projet-D-partement-R-D/projects/dongle-multisupport/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="evolution/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Aperçu - Département R&D</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#reseau-maille-de-telecommunication-autonome" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="Département R&amp;D" class="md-header__button md-logo" aria-label="Département R&D" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Département R&D
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Aperçu
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Passer en mode sombre"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Passer en mode sombre" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Passer en mode clair"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Passer en mode clair" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Projets
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Département R&amp;D" class="md-nav__button md-logo" aria-label="Département R&D" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Département R&D
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accueil
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projets
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Projets
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Réseau maillé de télécommunication autonome
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Réseau maillé de télécommunication autonome
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="evolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Évolution du projet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="lora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LoRa & LoRaWAN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ble/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bluetooth Low Energy (BLE)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="wifi-halow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wi-Fi HaLow
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="conception-electronique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conception électronique
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="modelisation-3d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modélisation 3D
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="nomenclature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nomenclature (BOM)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="budget/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Budget
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="suivi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Suivi de projet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="telechargement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Téléchargement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../borne-stationnement/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Borne de stationnement intelligente
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Borne de stationnement intelligente
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../borne-stationnement/evolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Évolution du projet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../borne-stationnement/conception-electronique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conception électronique
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../borne-stationnement/modelisation-3d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modélisation 3D
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../borne-stationnement/budget/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Budget
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../borne-stationnement/suivi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Suivi de projet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../borne-stationnement/telechargement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Téléchargement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objectif" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objectif
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution-1-architecture-lorawan-ble" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution 1 — Architecture LoRaWAN + BLE
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solution 1 — Architecture LoRaWAN + BLE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-cette-architecture-ne-suffit-pas-seule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pourquoi cette architecture ne suffit pas seule
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution-2-architecture-wi-fi-halow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution 2 — Architecture Wi-Fi HaLow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution-combinee-reseau-complet-autonome" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution combinée — Réseau complet autonome
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tableau-de-synthese" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tableau de synthèse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Statut
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="reseau-maille-de-telecommunication-autonome">Réseau maillé de télécommunication autonome<a class="headerlink" href="#reseau-maille-de-telecommunication-autonome" title="Permanent link">&para;</a></h1>
+<p><strong>Mettre en place un réseau maillé de télécommunication utilisable sans connexion Internet.</strong></p>
+<h2 id="objectif">Objectif<a class="headerlink" href="#objectif" title="Permanent link">&para;</a></h2>
+<p>Construire une infrastructure de télécommunication <strong>autonome, privée et multiservice</strong> : les échanges (IoT, télémétrie, messagerie, paiement, voix...) transitent uniquement par un réseau maillé propre au département, sans dépendre d'un opérateur télécom ni d'un accès Internet.</p>
+<p>Cette page retrace, dans l'ordre où elles ont été étudiées, les trois architectures envisagées pour répondre à cet objectif. Chaque solution répond aux limites de la précédente : la première (LoRaWAN + BLE) donne une portée exceptionnelle mais un débit trop faible pour la voix ou la messagerie ; la seconde (Wi-Fi HaLow) apporte ce débit mais réduit la portée ; la troisième combine les deux pour obtenir un réseau complet, capable de porter à la fois l'IoT, le paiement, la messagerie, la voix et un accès Internet optionnel.</p>
+<h2 id="solution-1-architecture-lorawan-ble">Solution 1 — Architecture LoRaWAN + BLE<a class="headerlink" href="#solution-1-architecture-lorawan-ble" title="Permanent link">&para;</a></h2>
+<figure>
+  <img alt="Architecture Solution 1 : les smartphones se connectent en BLE aux relais (Relay Gateway), qui se maillent entre eux en LoRa jusqu'à une passerelle frontière (Border Gateway), laquelle relaie vers le network server puis, via des API gRPC et HTTPS, vers les serveurs externes." src="assets/architecture/lora-ble-mesh-network.png" />
+<br />
+<figcaption>Solution 1 — Architecture LoRaWAN + BLE : portée très longue (~15 km), débit faible (0,3 à 50 kbps).</figcaption>
+</figure>
+<p>Dans cette première architecture, chaque utilisateur porte simplement son smartphone : c'est lui qui se connecte, en <strong>Bluetooth Low Energy (BLE)</strong>, au relais le plus proche — un petit boîtier dont le seul rôle est de récupérer les données émises par le téléphone (une position, un message, une demande de paiement) et de les faire suivre plus loin. Ces relais ne sont pas isolés : ils se <strong>maillent entre eux</strong>, c'est-à-dire qu'ils peuvent se transmettre les données de proche en proche jusqu'à atteindre une <strong>passerelle frontière</strong>, celle qui fait l'interface entre le maillage local et le reste de l'infrastructure. Cette passerelle utilise à son tour la technologie <strong>LoRa</strong> — la même famille de radio que celle qui relie les relais entre eux, mais ici sur le dernier segment avant le cœur du réseau — pour transmettre l'ensemble des données collectées au <strong>serveur réseau</strong> (le « Network Server »). C'est ce serveur qui centralise tout : il authentifie les messages, les trie, et les redistribue vers des <strong>serveurs externes</strong> via deux types d'interfaces de programmation (API) — l'une en <strong>gRPC</strong>, plus rapide et adaptée aux échanges internes fréquents, l'autre en <strong>HTTPS</strong>, plus universelle et adaptée à des services web classiques. Enfin, le serveur réseau dispose aussi d'une sortie <strong>Internet</strong>, via un routeur 2G/4G, qui lui permet — quand une connexion existe — de synchroniser des données avec l'extérieur ou de recevoir des mises à jour, sans pour autant que cette connexion soit nécessaire au fonctionnement quotidien du maillage local.</p>
+<p>L'intérêt principal de cette architecture tient à deux chiffres, affichés sur le schéma : une <strong>portée qui peut atteindre 15 km</strong> entre un relais et la passerelle, et une <strong>consommation électrique extrêmement faible</strong>, qui permet à un relais alimenté par une simple batterie ou un petit panneau solaire de fonctionner pendant des mois, voire des années, sans intervention. C'est exactement le compromis que propose la technologie LoRa : elle sacrifie le débit pour offrir une portée et une autonomie énergétique inégalées.</p>
+<h3 id="pourquoi-cette-architecture-ne-suffit-pas-seule">Pourquoi cette architecture ne suffit pas seule<a class="headerlink" href="#pourquoi-cette-architecture-ne-suffit-pas-seule" title="Permanent link">&para;</a></h3>
+<p>C'est justement ce compromis qui devient une limite dès que l'on sort du cadre de la simple collecte de données. Le débit affiché sur le schéma — <strong>de 0,3 à 50 kbps seulement</strong> — est suffisant pour transmettre une position GPS, une petite transaction de paiement ou un court message texte, mais totalement insuffisant pour porter une conversation vocale, une messagerie enrichie (photos, fichiers) ou une simple page web. À cela s'ajoute le fait que LoRa repose sur un mécanisme d'accès à la bande radio qui limite le temps d'émission de chaque appareil (le « duty cycle »), ce qui introduit des délais supplémentaires dès que le volume d'échanges augmente. Autrement dit, la Solution 1 est excellente pour une infrastructure de capteurs ou de paiements ponctuels à faible volume, mais elle ne peut pas, à elle seule, servir de réseau de télécommunication complet capable de faire transiter de la voix ou de l'Internet. C'est cette limite précise — un débit trop faible pour les usages riches — qui a motivé l'étude d'une seconde architecture, pensée cette fois pour le débit plutôt que pour la portée.</p>
+<h2 id="solution-2-architecture-wi-fi-halow">Solution 2 — Architecture Wi-Fi HaLow<a class="headerlink" href="#solution-2-architecture-wi-fi-halow" title="Permanent link">&para;</a></h2>
+<figure>
+  <img alt="Deux modes de fonctionnement Wi-Fi HaLow : en mode autonome (Stand Wi-Fi HaLow), des clients (STA) se connectent à une passerelle (Gateway/AP) qui relie le réseau local au cloud ; en mode maillé (802.11s Mesh), des points de maillage (Mesh Point) relaient le trafic vers une Mesh Gate connectée au cloud." src="assets/architecture/wifi-halow-working-mode.png" />
+<br />
+<figcaption>Solution 2 — Architecture Wi-Fi HaLow : mode autonome (Gateway/AP) ou maillé (802.11s Mesh), portée longue en sous-GHz (~1-2 km), débit plus élevé (jusqu'à ~8 Mbps).</figcaption>
+</figure>
+<p>Cette seconde architecture change de logique : plutôt que de faire porter tout le trajet par une radio à très faible débit comme LoRa, elle s'appuie sur le <strong>Wi-Fi HaLow</strong>, une variante du Wi-Fi conçue pour fonctionner sur de plus longues distances tout en restant beaucoup plus rapide que LoRa. Le smartphone se connecte cette fois à un <strong>dongle</strong> (un petit boîtier externe, puisque le Wi-Fi HaLow n'est pas encore intégré nativement dans les téléphones du marché), en BLE ou en Wi-Fi classique selon ce que le téléphone propose. Ce dongle rejoint ensuite un <strong>nœud HaLow</strong>, qui fait lui-même partie d'un petit maillage de nœuds voisins — un peu comme les relais de la Solution 1, mais ici en Wi-Fi HaLow plutôt qu'en LoRa. Ce maillage de nœuds achemine les données jusqu'à un <strong>cœur de réseau</strong> (« Network Core »), qui joue un rôle proche du serveur réseau de la Solution 1, à la différence près qu'il expose directement trois services utilisables : la <strong>voix (VoIP)</strong>, la <strong>messagerie</strong>, et un accès <strong>Internet</strong>.</p>
+<p>Le schéma résume bien le compromis inverse de celui de LoRa : la portée reste correcte pour un usage local (jusqu'à 1 à 2 km, contre 15 km pour LoRa), mais le débit grimpe fortement — jusqu'à environ 8 Mbps dans le cadre visé par ce projet — ce qui suffit cette fois à porter une conversation vocale ou une messagerie avec pièces jointes. C'est précisément ce qui manquait à la Solution 1.</p>
+<p>En contrepartie, le Wi-Fi HaLow consomme davantage d'énergie que LoRa, et sa portée plus courte impose de multiplier les nœuds de maillage pour couvrir une même zone. Utilisée seule, cette architecture est donc bien adaptée à la voix et à la messagerie, mais elle perd l'avantage clé de la Solution 1 : une couverture très étendue avec un nombre minimal de relais, pour un coût énergétique quasi nul — un atout décisif pour l'IoT et la télémétrie à grande échelle. Aucune des deux architectures, prise isolément, ne répond donc à l'ensemble du besoin initial : il fallait les deux à la fois, chacune sur les usages où elle excelle.</p>
+<h2 id="solution-combinee-reseau-complet-autonome">Solution combinée — Réseau complet autonome<a class="headerlink" href="#solution-combinee-reseau-complet-autonome" title="Permanent link">&para;</a></h2>
+<figure>
+  <img alt="Architecture combinée : le dongle multi-support route le trafic LoRa vers le réseau LoRaWAN et le trafic Wi-Fi HaLow vers le réseau Wi-Fi HaLow, les deux convergeant vers un transport IP de maillage puis un cœur de réseau qui sert la voix, la messagerie, le paiement, l'IoT et Internet." src="assets/architecture/solution3-dongle-combine.png" />
+<br />
+<figcaption>Solution combinée — le dongle multi-support choisit la technologie adaptée à chaque service, pour un réseau autonome complet.</figcaption>
+</figure>
+<p>La troisième architecture ne choisit pas entre les deux précédentes : elle les fait cohabiter au sein d'un même appareil, le <strong>dongle multi-support</strong>, capable de parler à la fois BLE, Wi-Fi, LoRa et Wi-Fi HaLow. Concrètement, le smartphone continue de se connecter simplement en BLE ou en Wi-Fi à ce dongle, sans rien changer à son usage habituel. C'est le dongle qui décide ensuite, selon le type de service demandé, quel réseau radio emprunter : une donnée de télémétrie ou une petite transaction de paiement part par le <strong>réseau LoRaWAN</strong>, pour profiter de sa portée et de sa sobriété énergétique ; une communication vocale ou un message plus riche part par le <strong>réseau Wi-Fi HaLow</strong>, pour profiter de son débit. Ces deux réseaux, bien que physiquement différents, convergent ensuite vers une couche commune appelée <strong>transport IP</strong> — un maillage de type « backhaul » dont le rôle est justement d'unifier les deux mondes radio en un seul réseau logique, indépendant de la technologie utilisée en dernier kilomètre.</p>
+<p>C'est ce transport IP unifié qui alimente le <strong>cœur de réseau</strong>, chargé de l'authentification, de la gestion des appareils et des données. C'est à ce niveau que se distribuent, enfin, les cinq grandes familles de services attendues : la <strong>voix</strong>, la <strong>messagerie</strong>, le <strong>paiement</strong>, l'<strong>IoT</strong> et, en option, l'<strong>Internet</strong> — ce dernier restant une passerelle vers l'extérieur plutôt qu'une dépendance : le réseau fonctionne de bout en bout sans lui, exactement comme le voulait l'objectif de départ. C'est cette architecture combinée qui constitue la cible du projet : un réseau maillé, privé, capable de fonctionner de façon totalement autonome, tout en restant assez riche pour couvrir aussi bien un capteur IoT isolé qu'un appel vocal entre deux utilisateurs.</p>
+<h2 id="tableau-de-synthese">Tableau de synthèse<a class="headerlink" href="#tableau-de-synthese" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Critère</th>
+<th>Solution 1 — LoRaWAN + BLE</th>
+<th>Solution 2 — Wi-Fi HaLow</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portée</td>
+<td>Très longue (~15 km)</td>
+<td>Longue (~1-2 km, sous-GHz)</td>
+</tr>
+<tr>
+<td>Débit</td>
+<td>Faible (0,3 - 50 kbps)</td>
+<td>Plus élevé (jusqu'à ~8 Mbps)</td>
+</tr>
+<tr>
+<td>Consommation</td>
+<td>Très faible</td>
+<td>Plus élevée</td>
+</tr>
+<tr>
+<td>Compatibilité smartphone</td>
+<td>Non native (BLE requis)</td>
+<td>Non native (dongle requis)</td>
+</tr>
+<tr>
+<td>IoT / télémétrie</td>
+<td>Excellent</td>
+<td>Très adapté</td>
+</tr>
+<tr>
+<td>Paiement électronique</td>
+<td>Adapté (faibles volumes)</td>
+<td>Très adapté</td>
+</tr>
+<tr>
+<td>Voix / Internet</td>
+<td>Très limité</td>
+<td>Faisable</td>
+</tr>
+<tr>
+<td>Réseau maillé IP</td>
+<td>Nécessite des mécanismes</td>
+<td>Naturel au niveau IP</td>
+</tr>
+</tbody>
+</table>
+<p>→ Détails techniques des technologies radio : <a href="lora/">LoRa &amp; LoRaWAN</a> · <a href="ble/">Bluetooth Low Energy (BLE)</a> · <a href="wifi-halow/">Wi-Fi HaLow</a></p>
+<h2 id="statut">Statut<a class="headerlink" href="#statut" title="Permanent link">&para;</a></h2>
+<p>🟡 Étude technique réalisée — choix d'architecture définitif et prototypage à venir. Voir le <a href="suivi/">suivi de projet</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "content.code.copy", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
